@@ -1,0 +1,7 @@
+---
+
+- connection: local
+  hosts: all
+  tasks:
+    - include_role:
+        name: ansible-role-mlflow-azure
