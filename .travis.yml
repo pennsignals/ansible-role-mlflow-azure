@@ -1,0 +1,8 @@
+cache: pip
+install:
+  - pip install ansible==2.5.4
+language: python
+notifications:
+  webhooks: https://galaxy.ansible.com/api/v1/notifications/
+script:
+  - ansible-playbook -i tests/inventory tests/test.yml
