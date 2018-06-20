@@ -7,6 +7,7 @@ galaxy_info:
   galaxy_tags:
     - azure
     - mlflow
+  github_branch: master
   license: MIT
   platforms:
     - name: GenericLinux
